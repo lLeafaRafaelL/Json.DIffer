@@ -1,0 +1,105 @@
+{
+	"info": {
+		"_postman_id": "aebf33dd-68c2-4b56-96d1-8f2f1b542399",
+		"name": "JsonDiffer",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4825585"
+	},
+	"item": [
+		{
+			"name": "LeftFIle",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"EncodedFile\" : \"ICAgIHsKICAgICAgICAiZGVzY3JpcHRpb24iOiAiVGhlIGlucHV0IGlzIG5vdCBhIHZhbGlkIEJhc2UtNjQgc3RyaW5nIGFzIGl0IGNvbnRhaW5zIGEgbm9uLWJhc2UgNjQgY2hhcmFjdGVyLCBtb3JlIHRoYW4gdHdvIHBhZGRpbmcgY2hhcmFjdGVycywgb3IgYW4gaWxsZWdhbCBjaGFyYWN0ZXIgYW1vbmcgdGhlIHBhZGRpbmcgY2hhcmFjdGVycy4iLAogICAgICAgICJjb2RlIjogImdlbmVyaWMiCiAgICB9\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5140/json-differ/v1/diff/0A867069-56F9-423E-8417-791344EDC782/left",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5140",
+					"path": [
+						"json-differ",
+						"v1",
+						"diff",
+						"0A867069-56F9-423E-8417-791344EDC782",
+						"left"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "RightFile",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"EncodedFile\" : \"ICAgIHsKICAgICAgICAiZGVzY3JpcHRpb24iOiAiVGhlIGlucHV0IGlzIG5vdCBhIHZhbGlkIEJhc2UtNjQgc3RyaW5nIGFzIGl0IGNvbnRhaW5zIGEgbm9uLWJhc2UgNjQgY2hhcmFjdGVyLCBtb3JlIHRoYW4gdHdvIHBhZGRpbmcgY2hhcmFjdGVycywgb3IgYW4gaWxsZWdhbCBjaGFyYWN0ZXIgYW1vbmcgdGhlIHBhZGRpbmcgY2hhcmFjdGVycy4iLAogICAgICAgICJjb2RlIjogImdlbmVyaWMiCiAgICB9\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5140/json-differ/v1/diff/0A867069-56F9-423E-8417-791344EDC782/right",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5140",
+					"path": [
+						"json-differ",
+						"v1",
+						"diff",
+						"0A867069-56F9-423E-8417-791344EDC782",
+						"right"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Comparison",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"EncodedFile\" : \"ICAgIHsKICAgICAgICAiZGVzY3JpcHRpb24iOiAiVGhlIGlucHV0IGlzIG5vdCBhIHZhbGlkIEJhc2UtNjQgc3RyaW5nIGFzIGl0IGNvbnRhaW5zIGEgbm9uLWJhc2UgNjQgY2hhcmFjdGVyLCBtb3JlIHRoYW4gdHdvIHBhZGRpbmcgY2hhcmFjdGVycywgb3IgYW4gaWxsZWdhbCBjaGFyYWN0ZXIgYW1vbmcgdGhlIHBhZGRpbmcgY2hhcmFjdGVycy4iLAogICAgICAgICJjb2RlIjogImdlbmVyaWMiCiAgICB9\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5140/json-differ/v1/diff/0A867069-56F9-423E-8417-791344EDC782",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5140",
+					"path": [
+						"json-differ",
+						"v1",
+						"diff",
+						"0A867069-56F9-423E-8417-791344EDC782"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

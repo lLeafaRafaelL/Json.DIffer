@@ -13,7 +13,6 @@
     <ProjectReference Include="..\Json.Differ.Shared\Json.Differ.Shared.csproj" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="6.0.11" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.11" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.11" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="6.0.0" />
     <PackageReference Include="Microsoft.Extensions.Http" Version="6.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.11">

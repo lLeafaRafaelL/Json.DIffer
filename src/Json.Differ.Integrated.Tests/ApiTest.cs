@@ -8,7 +8,7 @@ namespace Json.Differ.Integrated.Tests
     [TestCaseOrderer("Json.Differ.Integrated.Tests", "Api.Tests")]
     public class ApiTest : IClassFixture<CustomWebApplicationFactory<Program>>
     {
-        private readonly WebApplicationFactory<Program> _factory;
+        private readonly CustomWebApplicationFactory<Program> _factory;
         private const string baseUri = "json-differ/v1/diff";
         private Guid ExternalId => Guid.NewGuid();
 

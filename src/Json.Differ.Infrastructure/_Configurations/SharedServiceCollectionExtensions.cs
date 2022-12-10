@@ -35,14 +35,13 @@ namespace Json.Differ.Infrastructure._Configurations
 
         private static void AddRepositories(IServiceCollection services, IConfigurationRoot configuration)
         {
-            var connectionString = configuration.GetConnectionString("JsonDifferConnection") ?? throw new ArgumentNullException("JsonDifferConnection");
+            var connectionString = configuration.GetConnectionString("JsonDifferConnection");       
 
             services.AddSingleton(new DbOptions(connectionString));
 
             var dbContextOptionsBuilder = new DbContextOptionsBuilder<JsonDifferContext>().UseSqlServer(connectionString);
-
             services.AddSingleton(dbContextOptionsBuilder.Options);
-            services.AddDbContext<JsonDifferContext>(options => options.UseSqlServer(connectionString));
+            services.AddDbContext<JsonDifferContext>();
 
             services.AddScoped(x => new EFUnityOfWorkAsync(x.GetRequiredService<JsonDifferContext>()));
             services.AddScoped<IUnityOfWorkAsync>(x => x.GetRequiredService<EFUnityOfWorkAsync>());

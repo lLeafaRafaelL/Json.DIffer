@@ -481,3 +481,4 @@ C:\Users\Rafae\OneDrive\Documents\Projetos\Json.DIffer\src\Json.Differ.Integrate
 C:\Users\Rafae\OneDrive\Documents\Projetos\Json.DIffer\src\Json.Differ.Integrated.Tests\bin\Debug\net6.0\Json.Differ.Domain.pdb
 C:\Users\Rafae\OneDrive\Documents\Projetos\Json.DIffer\src\Json.Differ.Integrated.Tests\bin\Debug\net6.0\Json.Differ.Infrastructure.pdb
 C:\Users\Rafae\OneDrive\Documents\Projetos\Json.DIffer\src\Json.Differ.Integrated.Tests\bin\Debug\net6.0\Json.Differ.Shared.pdb
+C:\Users\Rafae\OneDrive\Documents\Projetos\Json.DIffer\src\Json.Differ.Integrated.Tests\bin\Debug\net6.0\appsettings.Test.json
