@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "qcUEorjYGJnu1/MLfHak3dWJOKTSMBjv8RxvMXrsJu8=",
+  "Source": "JsonDiffer.Api",
+  "BasePath": "_content/JsonDiffer.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
