@@ -6,7 +6,7 @@ A .NET Core 6 API to compare json encoded files
 - Upload the right file
 - Compare the uploaded files
 
-# requirements to run the application local
+# Requirements to run the application local
 - .NET Core 6
 - SQL Server
 - Optional: Docker (you can run the docker compose)
