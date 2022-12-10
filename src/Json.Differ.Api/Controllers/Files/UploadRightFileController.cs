@@ -1,6 +1,5 @@
 ﻿using Json.Differ.Application.Files.UploadFileToCompare;
 using Json.Differ.Core.BadRequests;
-using JsonDiffer.Api.Controllers.Files.Dto_;
 using JsonDiffer.Api.Shared;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;

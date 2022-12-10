@@ -28,5 +28,8 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
+  <ItemGroup>
+    <InternalsVisibleTo Include="Json.Differ.Integrated.Tests" />
+  </ItemGroup>
 
 </Project>

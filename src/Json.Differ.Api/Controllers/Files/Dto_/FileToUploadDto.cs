@@ -1,4 +1,4 @@
-﻿namespace JsonDiffer.Api.Controllers.Files.Dto_
+﻿namespace JsonDiffer.Api.Controllers.Files
 {
     public class FileToUploadDto
     {

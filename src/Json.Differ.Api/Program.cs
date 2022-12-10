@@ -40,3 +40,5 @@ app.UseEndpoints(endpoints =>
 app.ExecuteMigration();
 
 app.Run();
+
+public partial class Program { }
