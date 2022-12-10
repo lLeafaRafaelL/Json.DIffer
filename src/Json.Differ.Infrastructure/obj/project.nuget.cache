@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9X/1/MFIbIcC5Z4gUE+rVLyGRpgieZib1k0nmgkcadtxiRaD8E2dmMmjBrbRkAvDBDgkr9gq7ynkWWs/RV3+KQ==",
+  "dgSpecHash": "P972BOcxl7Y53O5HMZLHxfZu+NBs2tC4tOdDBpebP5m04S66xH9M5Gwus01pbRbfxexDYKt27xhPoB45TkQvMA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rafae\\OneDrive\\Documents\\Projetos\\Json.Differ\\src\\Json.Differ.Infrastructure\\Json.Differ.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\Rafae\\OneDrive\\Documents\\Projetos\\Json.DIffer\\src\\Json.Differ.Infrastructure\\Json.Differ.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rafae\\.nuget\\packages\\fluentvalidation\\11.4.0\\fluentvalidation.11.4.0.nupkg.sha512",
     "C:\\Users\\Rafae\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

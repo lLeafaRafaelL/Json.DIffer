@@ -26,10 +26,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Application\Comparisons\CompareFilesDiffs\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\Json.Differ.Application\Json.Differ.Application.csproj" />
     <ProjectReference Include="..\Json.Differ.Domain\Json.Differ.Domain.csproj" />
   </ItemGroup>

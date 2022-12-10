@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OpCdZWPqf5zzNjAEQ01M3Hs10M53NnuJhJwkTM65wchBFKoQRYXyAzejTIfjTAhm5i/lCM6ip5gZxWe5xfAXoA==",
+  "dgSpecHash": "65gPl+orTAosrZgEyAC5PE0yrWBpeLeYAVSckwDYm2tyZlrb6JXOp/g6CZ+pDBFa2nFlXQVuuA+5LSyFtw/kmQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rafae\\OneDrive\\Documents\\Projetos\\Json.Differ\\src\\Json.Differ.Core\\Json.Differ.Core.csproj",
+  "projectFilePath": "C:\\Users\\Rafae\\OneDrive\\Documents\\Projetos\\Json.DIffer\\src\\Json.Differ.Core\\Json.Differ.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rafae\\.nuget\\packages\\fluentvalidation\\11.4.0\\fluentvalidation.11.4.0.nupkg.sha512",
     "C:\\Users\\Rafae\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",

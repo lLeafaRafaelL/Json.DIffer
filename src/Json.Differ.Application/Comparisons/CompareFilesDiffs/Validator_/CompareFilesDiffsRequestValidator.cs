@@ -8,7 +8,7 @@ namespace Json.Differ.Application.Files.CompareFilesDiffs
     {
         public CompareFilesDiffsRequestValidator()
         {
-            RuleFor(a => a.Id)
+            RuleFor(a => a.ExternalId)
                 .NotEmpty()
                 .WithMessage(NotNullOrEmptyMessage);
         }

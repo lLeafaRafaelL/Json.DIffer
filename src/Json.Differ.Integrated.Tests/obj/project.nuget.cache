@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FR5jQRSouzKKqc0r/fWgQeQr7txZ7GEP+9SPODD9rYMfH6sNvvbELeJBV8dRJ7IIDyyeDrszyW6ehsjnOD9/bg==",
+  "dgSpecHash": "1HqtqnonDmrbDRrahEfGCHYZaixpOo2hY2OEseN25XTzAVRHM/pxxdMOW4IsK+RzJQmQkP3N7qR/fEW7HF9Ejg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rafae\\OneDrive\\Documents\\Projetos\\Json.Differ\\src\\Json.Differ.Integrated.Tests\\Json.Differ.Integrated.Tests.csproj",
+  "projectFilePath": "C:\\Users\\Rafae\\OneDrive\\Documents\\Projetos\\Json.DIffer\\src\\Json.Differ.Integrated.Tests\\Json.Differ.Integrated.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rafae\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\Rafae\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",

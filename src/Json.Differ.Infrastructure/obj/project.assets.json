@@ -5865,9 +5865,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rafae\\OneDrive\\Documents\\Projetos\\Json.Differ\\src\\Json.Differ.Infrastructure\\Json.Differ.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\Rafae\\OneDrive\\Documents\\Projetos\\Json.DIffer\\src\\Json.Differ.Infrastructure\\Json.Differ.Infrastructure.csproj",
       "projectName": "Json.Differ.Infrastructure",
-      "projectPath": "C:\\Users\\Rafae\\OneDrive\\Documents\\Projetos\\Json.Differ\\src\\Json.Differ.Infrastructure\\Json.Differ.Infrastructure.csproj",
+      "projectPath": "C:\\Users\\Rafae\\OneDrive\\Documents\\Projetos\\Json.DIffer\\src\\Json.Differ.Infrastructure\\Json.Differ.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\Rafae\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Rafae\\OneDrive\\Documents\\Projetos\\Json.Differ\\src\\Json.Differ.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
@@ -5886,14 +5886,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Rafae\\OneDrive\\Documents\\Projetos\\Json.Differ\\src\\Json.Differ.Core\\Json.Differ.Core.csproj": {
-              "projectPath": "C:\\Users\\Rafae\\OneDrive\\Documents\\Projetos\\Json.Differ\\src\\Json.Differ.Core\\Json.Differ.Core.csproj"
+            "C:\\Users\\Rafae\\OneDrive\\Documents\\Projetos\\Json.DIffer\\src\\Json.Differ.Core\\Json.Differ.Core.csproj": {
+              "projectPath": "C:\\Users\\Rafae\\OneDrive\\Documents\\Projetos\\Json.DIffer\\src\\Json.Differ.Core\\Json.Differ.Core.csproj"
             },
-            "C:\\Users\\Rafae\\OneDrive\\Documents\\Projetos\\Json.Differ\\src\\Json.Differ.Domain\\Json.Differ.Domain.csproj": {
-              "projectPath": "C:\\Users\\Rafae\\OneDrive\\Documents\\Projetos\\Json.Differ\\src\\Json.Differ.Domain\\Json.Differ.Domain.csproj"
+            "C:\\Users\\Rafae\\OneDrive\\Documents\\Projetos\\Json.DIffer\\src\\Json.Differ.Domain\\Json.Differ.Domain.csproj": {
+              "projectPath": "C:\\Users\\Rafae\\OneDrive\\Documents\\Projetos\\Json.DIffer\\src\\Json.Differ.Domain\\Json.Differ.Domain.csproj"
             },
-            "C:\\Users\\Rafae\\OneDrive\\Documents\\Projetos\\Json.Differ\\src\\JsonDiffer.Shared\\JsonDiffer.Shared.csproj": {
-              "projectPath": "C:\\Users\\Rafae\\OneDrive\\Documents\\Projetos\\Json.Differ\\src\\JsonDiffer.Shared\\JsonDiffer.Shared.csproj"
+            "C:\\Users\\Rafae\\OneDrive\\Documents\\Projetos\\Json.DIffer\\src\\JsonDiffer.Shared\\JsonDiffer.Shared.csproj": {
+              "projectPath": "C:\\Users\\Rafae\\OneDrive\\Documents\\Projetos\\Json.DIffer\\src\\JsonDiffer.Shared\\JsonDiffer.Shared.csproj"
             }
           }
         }

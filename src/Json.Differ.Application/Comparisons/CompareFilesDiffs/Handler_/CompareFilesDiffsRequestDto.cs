@@ -5,6 +5,6 @@ namespace Json.Differ.Application.Files.CompareFilesDiffs
 {
     public class CompareFilesDiffsRequestDto : RequestDto, IRequest<CompareFilesDiffsResponseDto>
     {
-        public Guid Id { get; set; }
+        public Guid ExternalId { get; set; }
     }
 }

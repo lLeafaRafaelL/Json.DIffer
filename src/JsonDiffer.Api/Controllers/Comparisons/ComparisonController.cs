@@ -24,7 +24,7 @@ namespace JsonDiffer.Api.Controllers.Comparisons
         {
             var request = new CompareFilesDiffsRequestDto
             {
-                Id = externalId
+                ExternalId = externalId
             };
 
             var responseDto = await Mediator.Send(request, cancellationToken);

@@ -6316,11 +6316,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rafae\\OneDrive\\Documents\\Projetos\\Json.Differ\\src\\JsonDiffer.Api\\JsonDiffer.Api.csproj",
+      "projectUniqueName": "C:\\Users\\Rafae\\OneDrive\\Documents\\Projetos\\Json.DIffer\\src\\JsonDiffer.Api\\JsonDiffer.Api.csproj",
       "projectName": "JsonDiffer.Api",
-      "projectPath": "C:\\Users\\Rafae\\OneDrive\\Documents\\Projetos\\Json.Differ\\src\\JsonDiffer.Api\\JsonDiffer.Api.csproj",
+      "projectPath": "C:\\Users\\Rafae\\OneDrive\\Documents\\Projetos\\Json.DIffer\\src\\JsonDiffer.Api\\JsonDiffer.Api.csproj",
       "packagesPath": "C:\\Users\\Rafae\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rafae\\OneDrive\\Documents\\Projetos\\Json.Differ\\src\\JsonDiffer.Api\\obj\\",
+      "outputPath": "C:\\Users\\Rafae\\OneDrive\\Documents\\Projetos\\Json.DIffer\\src\\JsonDiffer.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Rafae\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6337,8 +6337,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Rafae\\OneDrive\\Documents\\Projetos\\Json.Differ\\src\\Json.Differ.Application\\Json.Differ.Application.csproj": {
-              "projectPath": "C:\\Users\\Rafae\\OneDrive\\Documents\\Projetos\\Json.Differ\\src\\Json.Differ.Application\\Json.Differ.Application.csproj"
+            "C:\\Users\\Rafae\\OneDrive\\Documents\\Projetos\\Json.DIffer\\src\\Json.Differ.Application\\Json.Differ.Application.csproj": {
+              "projectPath": "C:\\Users\\Rafae\\OneDrive\\Documents\\Projetos\\Json.DIffer\\src\\Json.Differ.Application\\Json.Differ.Application.csproj"
             }
           }
         }

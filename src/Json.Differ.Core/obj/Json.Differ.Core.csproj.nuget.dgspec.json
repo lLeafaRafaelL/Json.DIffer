@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rafae\\OneDrive\\Documents\\Projetos\\Json.Differ\\src\\Json.Differ.Core\\Json.Differ.Core.csproj": {}
+    "C:\\Users\\Rafae\\OneDrive\\Documents\\Projetos\\Json.DIffer\\src\\Json.Differ.Core\\Json.Differ.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rafae\\OneDrive\\Documents\\Projetos\\Json.Differ\\src\\Json.Differ.Core\\Json.Differ.Core.csproj": {
+    "C:\\Users\\Rafae\\OneDrive\\Documents\\Projetos\\Json.DIffer\\src\\Json.Differ.Core\\Json.Differ.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rafae\\OneDrive\\Documents\\Projetos\\Json.Differ\\src\\Json.Differ.Core\\Json.Differ.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Rafae\\OneDrive\\Documents\\Projetos\\Json.DIffer\\src\\Json.Differ.Core\\Json.Differ.Core.csproj",
         "projectName": "Json.Differ.Core",
-        "projectPath": "C:\\Users\\Rafae\\OneDrive\\Documents\\Projetos\\Json.Differ\\src\\Json.Differ.Core\\Json.Differ.Core.csproj",
+        "projectPath": "C:\\Users\\Rafae\\OneDrive\\Documents\\Projetos\\Json.DIffer\\src\\Json.Differ.Core\\Json.Differ.Core.csproj",
         "packagesPath": "C:\\Users\\Rafae\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Rafae\\OneDrive\\Documents\\Projetos\\Json.Differ\\src\\Json.Differ.Core\\obj\\",
         "projectStyle": "PackageReference",

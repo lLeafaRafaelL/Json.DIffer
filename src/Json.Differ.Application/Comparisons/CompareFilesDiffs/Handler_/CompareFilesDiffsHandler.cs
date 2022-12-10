@@ -43,11 +43,11 @@ namespace Json.Differ.Application.Files.CompareFilesDiffs
                     BadRequestReasonFrom(validationResult.Details));
 
             //if exists a comparison with that external id, don't compare again, return the comparison results.
-            var existsComparison = await _repository.GetAsync(a => a.ExternalId == request.Id, cancellationToken);
+            var existsComparison = await _repository.GetAsync(a => a.ExternalId == request.ExternalId, cancellationToken);
             if (existsComparison != null)
                 return OK<CompareFilesDiffsResponseDto>(a => a.Response = _mapper.Map(existsComparison));
 
-            var comparison = await _factory.CreateAsync(request.Id, cancellationToken);
+            var comparison = await _factory.CreateAsync(request.ExternalId, cancellationToken);
             if (!comparison.Succeeded)
                 return BadRequest<CompareFilesDiffsResponseDto>(
                     BadRequestReasonFrom(comparison.Errors));
