@@ -1,0 +1,35 @@
+version: '3.6'
+
+networks: 
+    backend:
+
+volumes:
+  jsondifferdata:
+    
+services:
+  sql:
+    container_name: jsonDiffferDatabase
+    build:
+      context: .
+      dockerfile: Dockerfile.Sql
+    networks:
+      - jsondiffer
+    volumes:
+      - dbdata:/var/opt/mssql/data
+      - ./Json.Differ.Database/CreateDatabase/docker-entrypoint.sh:/entrypoint.sh
+      - ./Json.Differ.Database/CreateDatabase/docker-db-init.sh:/db-init.sh
+      - ./Json.Differ.Database/CreateDatabase/db-init.sql:/db-init.sql
+
+  webapi:
+    container_name: JsonDifferApi
+    build: 
+      context: .
+      dockerfile: Dockerfile.Dev
+    networks: 
+      - jsondiffer
+    ports:
+      - 8080:5000
+    environment: 
+      - DBHOST=sql
+    depends_on: 
+      - sql
