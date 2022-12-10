@@ -1,5 +1,5 @@
 # Json.DIffer
-A .NET Core 6 API for compare json encoded files
+A .NET Core 6 API to compare json encoded files
 
 # Flows:
 - Upload the left file
