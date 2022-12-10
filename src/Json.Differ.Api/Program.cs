@@ -1,6 +1,5 @@
 using Json.Differ.Application._Configurations;
-using MediatR;
-using System.Reflection;
+using Json.Differ.Infrastructure.Context;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -28,8 +27,6 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-
-//app.MapControllers();
 app.UseHttpsRedirection();
 
 app.UseRouting();
@@ -38,5 +35,8 @@ app.UseEndpoints(endpoints =>
 {
     endpoints.MapDefaultControllerRoute();
 });
+
+//Execute migrations
+app.ExecuteMigration();
 
 app.Run();

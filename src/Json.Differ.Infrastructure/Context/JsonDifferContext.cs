@@ -20,6 +20,12 @@ namespace Json.Differ.Infrastructure.Context
             _dbOptions = dbOptions ?? throw new ArgumentNullException(nameof(dbOptions));
         }
 
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            base.OnConfiguring(optionsBuilder);
+            optionsBuilder.UseSqlServer(_dbOptions.ConnectionString);
+        }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             new ComparisonBuilder().Build(modelBuilder.Entity<Comparison>());
