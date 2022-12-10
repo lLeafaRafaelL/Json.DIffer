@@ -6,16 +6,16 @@ EXPOSE 80
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
-COPY ["JsonDiffer.Api/JsonDiffer.Api.csproj", "JsonDiffer.Api/"]
-RUN dotnet restore "JsonDiffer.Api/JsonDiffer.Api.csproj"
+COPY ["Json.Differ.Api/JsonDiffer.Api.csproj", "Json.Differ.Api/"]
+RUN dotnet restore "Json.Differ.Api/Json.Differ.Api.csproj"
 COPY . .
-WORKDIR "/src/JsonDiffer.Api"
-RUN dotnet build "JsonDiffer.Api.csproj" -c Release -o /app/build
+WORKDIR "/src/Json.Differ.Api"
+RUN dotnet build "Json.Differ.Api.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "JsonDiffer.Api.csproj" -c Release -o /app/publish /p:UseAppHost=false
+RUN dotnet publish "Json.Differ.Api.csproj" -c Release -o /app/publish /p:UseAppHost=false
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "JsonDiffer.Api.dll"]
+ENTRYPOINT ["dotnet", "Json.Differ.Api.dll"]
