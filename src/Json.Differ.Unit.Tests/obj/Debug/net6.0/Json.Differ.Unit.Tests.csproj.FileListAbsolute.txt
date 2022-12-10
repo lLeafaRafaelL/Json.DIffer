@@ -187,7 +187,7 @@ C:\Users\Rafae\OneDrive\Documents\Projetos\Json.Differ\src\Json.Differ.Unit.Test
 C:\Users\Rafae\OneDrive\Documents\Projetos\Json.Differ\src\Json.Differ.Unit.Tests\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\Users\Rafae\OneDrive\Documents\Projetos\Json.Differ\src\Json.Differ.Unit.Tests\bin\Debug\net6.0\Json.Differ.Application.dll
 C:\Users\Rafae\OneDrive\Documents\Projetos\Json.Differ\src\Json.Differ.Unit.Tests\bin\Debug\net6.0\Json.Differ.Infrastructure.dll
-C:\Users\Rafae\OneDrive\Documents\Projetos\Json.Differ\src\Json.Differ.Unit.Tests\bin\Debug\net6.0\JsonDiffer.Shared.dll
 C:\Users\Rafae\OneDrive\Documents\Projetos\Json.Differ\src\Json.Differ.Unit.Tests\bin\Debug\net6.0\Json.Differ.Application.pdb
 C:\Users\Rafae\OneDrive\Documents\Projetos\Json.Differ\src\Json.Differ.Unit.Tests\bin\Debug\net6.0\Json.Differ.Infrastructure.pdb
-C:\Users\Rafae\OneDrive\Documents\Projetos\Json.Differ\src\Json.Differ.Unit.Tests\bin\Debug\net6.0\JsonDiffer.Shared.pdb
+C:\Users\Rafae\OneDrive\Documents\Projetos\Json.DIffer\src\Json.Differ.Unit.Tests\bin\Debug\net6.0\Json.Differ.Shared.dll
+C:\Users\Rafae\OneDrive\Documents\Projetos\Json.DIffer\src\Json.Differ.Unit.Tests\bin\Debug\net6.0\Json.Differ.Shared.pdb

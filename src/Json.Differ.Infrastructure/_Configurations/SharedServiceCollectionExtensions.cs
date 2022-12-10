@@ -10,8 +10,8 @@ using Json.Differ.Domain.Comparisons.Repositories;
 using Json.Differ.Infrastructure.Domain.Comparisons.Repositories;
 using Json.Differ.Domain.Files.Factories;
 using Json.Differ.Domain.Files.Factories.Impl;
-using JsonDiffer.Shared.Correlations;
-using JsonDiffer.Shared.Correlations.Service;
+using Json.Differ.Shared.Correlations;
+using Json.Differ.Shared.Correlations.Service;
 using Json.Differ.Domain.Comparisons.Factories;
 using Json.Differ.Domain.Comparisons.Factories.Impl;
 

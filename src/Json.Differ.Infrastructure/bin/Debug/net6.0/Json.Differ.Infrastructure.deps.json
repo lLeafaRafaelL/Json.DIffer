@@ -10,7 +10,7 @@
         "dependencies": {
           "Json.Differ.Core": "1.0.0",
           "Json.Differ.Domain": "1.0.0",
-          "JsonDiffer.Shared": "1.0.0",
+          "Json.Differ.Shared": "1.0.0",
           "Microsoft.EntityFrameworkCore.Relational": "6.0.11",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.11",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.11",
@@ -1220,12 +1220,12 @@
           "Json.Differ.Domain.dll": {}
         }
       },
-      "JsonDiffer.Shared/1.0.0": {
+      "Json.Differ.Shared/1.0.0": {
         "dependencies": {
           "Json.Differ.Core": "1.0.0"
         },
         "runtime": {
-          "JsonDiffer.Shared.dll": {}
+          "Json.Differ.Shared.dll": {}
         }
       }
     }
@@ -2023,7 +2023,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "JsonDiffer.Shared/1.0.0": {
+    "Json.Differ.Shared/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -9,7 +9,8 @@
   <ItemGroup>
     <ProjectReference Include="..\Json.Differ.Core\Json.Differ.Core.csproj" />
     <ProjectReference Include="..\Json.Differ.Domain\Json.Differ.Domain.csproj" />
-    <ProjectReference Include="..\JsonDiffer.Shared\JsonDiffer.Shared.csproj" />
+    <ProjectReference Include="..\Json.Differ.Shared\Json.Differ.Shared.csproj" />
+    <ProjectReference Include="..\Json.Differ.Shared\Json.Differ.Shared.csproj" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="6.0.11" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.11" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="6.0.0" />

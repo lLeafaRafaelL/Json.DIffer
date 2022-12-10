@@ -14,7 +14,7 @@
     <ProjectReference Include="..\Json.Differ.Core\Json.Differ.Core.csproj" />
     <ProjectReference Include="..\Json.Differ.Domain\Json.Differ.Domain.csproj" />
     <ProjectReference Include="..\Json.Differ.Infrastructure\Json.Differ.Infrastructure.csproj" />
-    <ProjectReference Include="..\JsonDiffer.Shared\JsonDiffer.Shared.csproj" />
+    <ProjectReference Include="..\Json.Differ.Shared\Json.Differ.Shared.csproj" />
   </ItemGroup>
 
 </Project>

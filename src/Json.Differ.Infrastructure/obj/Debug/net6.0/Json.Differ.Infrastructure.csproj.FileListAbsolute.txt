@@ -28,6 +28,6 @@ C:\Users\Rafae\OneDrive\Documents\Projetos\Json.Differ\src\Json.Differ.Infrastru
 C:\Users\Rafae\OneDrive\Documents\Projetos\Json.Differ\src\Json.Differ.Infrastructure\bin\Debug\net6.0\Json.Differ.Domain.dll
 C:\Users\Rafae\OneDrive\Documents\Projetos\Json.Differ\src\Json.Differ.Infrastructure\bin\Debug\net6.0\Json.Differ.Domain.pdb
 C:\Users\Rafae\OneDrive\Documents\Projetos\Json.Differ\src\Json.Differ.Infrastructure\bin\Debug\net6.0\Json.Differ.Infrastructure.runtimeconfig.json
-C:\Users\Rafae\OneDrive\Documents\Projetos\Json.Differ\src\Json.Differ.Infrastructure\bin\Debug\net6.0\JsonDiffer.Shared.dll
-C:\Users\Rafae\OneDrive\Documents\Projetos\Json.Differ\src\Json.Differ.Infrastructure\bin\Debug\net6.0\JsonDiffer.Shared.pdb
 C:\Users\Rafae\OneDrive\Documents\Projetos\Json.Differ\src\Json.Differ.Infrastructure\obj\Debug\net6.0\Json.Differ.Infrastructure.genruntimeconfig.cache
+C:\Users\Rafae\OneDrive\Documents\Projetos\Json.DIffer\src\Json.Differ.Infrastructure\bin\Debug\net6.0\Json.Differ.Shared.dll
+C:\Users\Rafae\OneDrive\Documents\Projetos\Json.DIffer\src\Json.Differ.Infrastructure\bin\Debug\net6.0\Json.Differ.Shared.pdb

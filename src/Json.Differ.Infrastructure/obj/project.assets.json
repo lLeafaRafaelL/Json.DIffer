@@ -1957,17 +1957,17 @@
           "bin/placeholder/Json.Differ.Domain.dll": {}
         }
       },
-      "JsonDiffer.Shared/1.0.0": {
+      "Json.Differ.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Json.Differ.Core": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/JsonDiffer.Shared.dll": {}
+          "bin/placeholder/Json.Differ.Shared.dll": {}
         },
         "runtime": {
-          "bin/placeholder/JsonDiffer.Shared.dll": {}
+          "bin/placeholder/Json.Differ.Shared.dll": {}
         }
       }
     }
@@ -5841,17 +5841,17 @@
       "path": "../Json.Differ.Domain/Json.Differ.Domain.csproj",
       "msbuildProject": "../Json.Differ.Domain/Json.Differ.Domain.csproj"
     },
-    "JsonDiffer.Shared/1.0.0": {
+    "Json.Differ.Shared/1.0.0": {
       "type": "project",
-      "path": "../JsonDiffer.Shared/JsonDiffer.Shared.csproj",
-      "msbuildProject": "../JsonDiffer.Shared/JsonDiffer.Shared.csproj"
+      "path": "../Json.Differ.Shared/Json.Differ.Shared.csproj",
+      "msbuildProject": "../Json.Differ.Shared/Json.Differ.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Json.Differ.Core >= 1.0.0",
       "Json.Differ.Domain >= 1.0.0",
-      "JsonDiffer.Shared >= 1.0.0",
+      "Json.Differ.Shared >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Relational >= 6.0.11",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.11",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.11",
@@ -5869,7 +5869,7 @@
       "projectName": "Json.Differ.Infrastructure",
       "projectPath": "C:\\Users\\Rafae\\OneDrive\\Documents\\Projetos\\Json.DIffer\\src\\Json.Differ.Infrastructure\\Json.Differ.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\Rafae\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rafae\\OneDrive\\Documents\\Projetos\\Json.Differ\\src\\Json.Differ.Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\Rafae\\OneDrive\\Documents\\Projetos\\Json.DIffer\\src\\Json.Differ.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Rafae\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5892,8 +5892,8 @@
             "C:\\Users\\Rafae\\OneDrive\\Documents\\Projetos\\Json.DIffer\\src\\Json.Differ.Domain\\Json.Differ.Domain.csproj": {
               "projectPath": "C:\\Users\\Rafae\\OneDrive\\Documents\\Projetos\\Json.DIffer\\src\\Json.Differ.Domain\\Json.Differ.Domain.csproj"
             },
-            "C:\\Users\\Rafae\\OneDrive\\Documents\\Projetos\\Json.DIffer\\src\\JsonDiffer.Shared\\JsonDiffer.Shared.csproj": {
-              "projectPath": "C:\\Users\\Rafae\\OneDrive\\Documents\\Projetos\\Json.DIffer\\src\\JsonDiffer.Shared\\JsonDiffer.Shared.csproj"
+            "C:\\Users\\Rafae\\OneDrive\\Documents\\Projetos\\Json.DIffer\\src\\Json.Differ.Shared\\Json.Differ.Shared.csproj": {
+              "projectPath": "C:\\Users\\Rafae\\OneDrive\\Documents\\Projetos\\Json.DIffer\\src\\Json.Differ.Shared\\Json.Differ.Shared.csproj"
             }
           }
         }
