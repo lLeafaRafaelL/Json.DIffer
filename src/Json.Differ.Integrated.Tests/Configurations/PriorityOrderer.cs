@@ -1,9 +1,8 @@
 ﻿using Xunit.Abstractions;
 using Xunit.Sdk;
 
-namespace Json.Differ.Integrated.Tests
+namespace Json.Differ.Integrated.Tests.Configurations
 {
-
     [AttributeUsage(AttributeTargets.Method)]
     public class TestPriorityAttribute : Attribute
     {
@@ -15,7 +14,7 @@ namespace Json.Differ.Integrated.Tests
         public int Priority { get; }
     }
 
-    public class TestPriorityOrder : ITestCaseOrderer
+    public class PriorityOrderer : ITestCaseOrderer
     {
         public IEnumerable<TTestCase> OrderTestCases<TTestCase>(IEnumerable<TTestCase> testCases) where TTestCase : ITestCase
         {
