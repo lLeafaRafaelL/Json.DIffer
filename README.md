@@ -20,5 +20,5 @@ Theres also a postman collection to help you in your tests: https://github.com/l
 # Improvements:
 - Implement log service
 - Implement a event source flow
-- Use a sql lite in memory database to run the intration tests
+- Use a sqlite in memory database to run the intration tests
 - Implement file property difference's line number
