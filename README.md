@@ -22,4 +22,4 @@ The miragtion will be running with the aplication.
 - Implement a event source flow
 - Use a sqlite in memory database to run the intration tests
 - Implement file property difference's line number
-- Upload the json file data on cloud service like amazon s3 and only storage the link on database
+- Upload the json file data on cloud service like amazon s3 and only storage the file's url on database
