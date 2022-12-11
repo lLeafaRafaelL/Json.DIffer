@@ -11,7 +11,7 @@ A .NET Core 6 API to compare json encoded files
 - SQL Server
 - Optional: Docker (you can run the docker compose)
 
-IF you don't want to use Docker, you should execute the script: https://github.com/lLeafaRafaelL/Json.DIffer/blob/main/src/Json.Differ.Database/CreateDatabase/db-init.sql to create the database.
+IF you don't want to use Docker, you should execute the script: https://github.com/lLeafaRafaelL/Json.DIffer/blob/main/src/Json.Differ.Database/CreateDatabase/db-init.sql to create the databases.
 The miragtion will be running with the aplication.
 
 # Postman Collections:
@@ -20,6 +20,6 @@ The miragtion will be running with the aplication.
 # Improvements:
 - Implement log service
 - Implement a event source flow
-- Use a sqlite in memory database to run the intration tests
+- Use a sqlite in memory database to run the integration tests
 - Implement file property difference's line number
-- Upload the json file data on cloud service like amazon s3 and only storage the link on database
+- Upload the json file data on cloud service like amazon s3 and only storage the file's url on database
