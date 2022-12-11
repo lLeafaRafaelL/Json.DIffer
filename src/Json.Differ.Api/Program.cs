@@ -3,12 +3,18 @@ using Json.Differ.Infrastructure.Context;
 using Microsoft.Extensions.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.WebHost.ConfigureKestrel(serverOptions =>
+{
+    serverOptions.ListenAnyIP(5000);
+});
 
 IConfigurationRoot configuration = new ConfigurationBuilder()
     .SetBasePath(Directory.GetCurrentDirectory())
     .AddJsonFile($"appsettings.{builder.Environment.EnvironmentName}.json")
+    .AddEnvironmentVariables()
     .Build();
 
+Console.WriteLine(configuration.GetConnectionString("JsonDifferConnection"));
 
 // Add services to the container.
 

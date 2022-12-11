@@ -6,8 +6,6 @@ EXPOSE 80
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
-COPY ["Json.Differ.Api/JsonDiffer.Api.csproj", "Json.Differ.Api/"]
-RUN dotnet restore "Json.Differ.Api/Json.Differ.Api.csproj"
 COPY . .
 WORKDIR "/src/Json.Differ.Api"
 RUN dotnet build "Json.Differ.Api.csproj" -c Release -o /app/build

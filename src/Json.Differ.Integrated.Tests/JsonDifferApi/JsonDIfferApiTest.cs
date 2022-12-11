@@ -37,7 +37,7 @@ namespace Json.Differ.Integrated.Tests.JsonDifferApi
             response.StatusCode.Should().Be(System.Net.HttpStatusCode.Created);
         }
 
-        [Fact(DisplayName = "Upload json encoded right file wich the externalId is already used"), TestPriority(2)]
+        [Fact(DisplayName = "Upload json encoded left file wich the externalId is already used"), TestPriority(2)]
         public async Task Post_UploadLeftFile_WithExternalIdAlreadyUsed_ResultShouldBeBadRequest()
         {
             //Arrange

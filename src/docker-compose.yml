@@ -1,35 +1,40 @@
 version: '3.6'
 
 networks: 
-    backend:
+  jsondiffer:
 
 volumes:
   jsondifferdata:
     
 services:
   sql:
-    container_name: jsonDiffferDatabase
-    build:
-      context: .
-      dockerfile: Dockerfile.Sql
+    image: mcr.microsoft.com/mssql/server:2017-CU31-ubuntu-18.04
     networks:
       - jsondiffer
+    environment:
+      - ACCEPT_EULA=y
+      - MSSQL_SA_PASSWORD=Abc@12345
+    ports:
+      - 1433:1433
     volumes:
-      - dbdata:/var/opt/mssql/data
+      - jsondifferdata:/var/opt/mssql/data
       - ./Json.Differ.Database/CreateDatabase/docker-entrypoint.sh:/entrypoint.sh
       - ./Json.Differ.Database/CreateDatabase/docker-db-init.sh:/db-init.sh
       - ./Json.Differ.Database/CreateDatabase/db-init.sql:/db-init.sql
+    entrypoint: /entrypoint.sh
 
   webapi:
     container_name: JsonDifferApi
     build: 
       context: .
-      dockerfile: Json.Differ.Api/Dockerfile
+      dockerfile: Dockerfile
     networks: 
       - jsondiffer
     ports:
-      - 8080:5000
+      - 5000:5000
     environment: 
       - DBHOST=sql
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__JsonDifferConnection=Server=sql, 1433;Database=JsonDiffer;User Id=sa;Password=Abc@12345; MultipleActiveResultSets=true;   
     depends_on: 
       - sql
