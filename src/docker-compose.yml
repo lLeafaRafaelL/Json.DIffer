@@ -24,7 +24,7 @@ services:
     container_name: JsonDifferApi
     build: 
       context: .
-      dockerfile: Dockerfile.Dev
+      dockerfile: Json.Differ.Api/Dockerfile
     networks: 
       - jsondiffer
     ports:
